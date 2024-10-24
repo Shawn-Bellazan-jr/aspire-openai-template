@@ -9,4 +9,6 @@ builder.AddProject<Projects.Example_Web>("webfrontend")
     .WithReference(cache)
     .WithReference(apiService);
 
+builder.AddProject<Projects.OpenAI_Api>("openai-api");
+
 builder.Build().Run();

@@ -9,6 +9,7 @@
     <UserSecretsId>d1b9400d-0bd4-4a0d-964a-8c871b12f9b6</UserSecretsId>
   </PropertyGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\OpenAI.Api\OpenAI.Api.csproj" />
     <ProjectReference Include="..\Example.ApiService\Example.ApiService.csproj" />
     <ProjectReference Include="..\Example.Web\Example.Web.csproj" />
   </ItemGroup>

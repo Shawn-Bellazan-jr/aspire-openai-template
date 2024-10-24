@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35410.144 d17.12
+VisualStudioVersion = 17.12.35410.144
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.AppHost", "Example\Example.AppHost\Example.AppHost.csproj", "{3006533D-483A-48B5-8F38-0CEE4E1C7EDD}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Web", "Example\Example.Web\Example.Web.csproj", "{55033F88-4E1A-4DB4-9941-6A439397AE7A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Tests", "Example\Example.Tests\Example.Tests.csproj", "{EC5248E1-AAC1-4758-BDE7-81484FCD1919}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAI.Api", "OpenAI.Api\OpenAI.Api.csproj", "{94286556-DAE3-4B31-B9B3-A7A784777904}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{EC5248E1-AAC1-4758-BDE7-81484FCD1919}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC5248E1-AAC1-4758-BDE7-81484FCD1919}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC5248E1-AAC1-4758-BDE7-81484FCD1919}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94286556-DAE3-4B31-B9B3-A7A784777904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94286556-DAE3-4B31-B9B3-A7A784777904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94286556-DAE3-4B31-B9B3-A7A784777904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94286556-DAE3-4B31-B9B3-A7A784777904}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
